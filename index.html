@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Rock, Paper, Scissors !</title>
+    <link rel='stylesheet' href='reset.css'>
+    <link rel='stylesheet' href='style.css'>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1> Rock, Paper, or Scissors ? <br /> YOU DECIDE !!! </h1>
+        </header>
+
+        <div class='score'>
+            <div class='userScore'>
+                <p>User Score: 0 </p>
+            </div>
+            <div class='computerScore'>
+                <p>Computer Score : 0 </p>
+            </div>
+        </div>
+        <div class='rockPaperScissors'>
+            <div class='image'>
+                <img src='rock.png' alt='rock' class='rock'>
+                <span class='caption'>Rock</span>
+            </div>
+            <div class='image'>
+                <img src='paper.png' alt='paper' class='paper'>
+                <span class='caption'>Paper</span>
+            </div>
+            <div class='image'>
+                <img src='scissors.png' alt='scissors' class='scissors'>
+                <span class='caption'>Scissors</span>
+            </div>
+        </div>
+        <div class='result'>
+            <p class='textResult'>First to 5 Win !!!</p>
+        </div>
+        <div class='references'>
+            <span class='userReference'>USER</span>
+            <span class='computerReference'>COMP</span>
+        </div>
+        <div class='pick'>
+            <div id='userPick'>
+                <img id='userPickImage' src='question.png' alt='question_mark'>
+                <span class='caption userChoice'>???</span>
+            </div>
+            <div>
+                <span class='versus'> VS </span>
+            </div>
+            <div id='computerPick'>
+                <img id='computerPickImage' src='question.png' alt='question_mark'>
+                <span class='caption compChoice'>???</span>
+            </div>
+        </div>
+        <div class='gameover'>
+            <p class='gameoverText'></p>
+        </div>
+        <div class='hidden'>
+            <button class='retryButton'>Retry</button>
+        </div>
+    </main>
+    <script src='app.js'></script>
+</body>
+
+</html>

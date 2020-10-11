@@ -1,0 +1,211 @@
+/*Body*/
+
+body {
+    background-color: rgba(240,230,140,1);
+}
+    
+/*Header*/
+
+header {
+    background-color: rgba(189,183,107,0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    padding: 25px;
+    line-height: 60px;
+}
+
+/* Main Content */
+
+.score {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.computerScore {
+    padding-left: 20px;
+}
+
+.userScore {
+    padding-right: 20px;
+}
+
+.rockPaperScissors {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.rock {
+    padding: 20px;
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+}
+
+.rock:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    color: rgba(240,230,140,0.7);
+}
+
+.paper {
+    padding: 20px;
+    width: 128px;
+    height: 128px;
+}
+
+.paper:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+.scissors {
+    padding: 20px;
+    width: 128px;
+    height: 128px;
+}
+
+.scissors:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+.references {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    padding-bottom: 0;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 7px solid rgba(189,183,107,0.5);
+}
+
+.userReference { 
+    border: 1px solid;
+    width: 86px;
+    height: 30px;
+    position: relative;
+    right: 25px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(189,183,107,0.5);
+}
+
+.computerReference {
+    border: 1px solid;
+    width: 86px;
+    height: 30px;
+    position: relative;
+    left: 25px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(189,183,107,0.5);
+}
+
+.caption {
+    display: block;
+    text-align: center;
+}
+
+/* Win or Lose Notice*/
+
+.result {
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.textResult {
+    border: 1px solid;
+    padding : 15px;
+    background-color: rgba(189,183,107,0.5);
+}
+
+/* Image of What User and Comp Pick */
+
+.pick {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#userPick {
+    display: inline-block;
+    padding: 15px;
+    padding-top: 0;
+    text-align: center;
+}
+
+#computerPick {
+    padding: 15px;
+    padding-top: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+#userPick > img {
+    width: 56px;
+    height: 56px;
+    padding : 15px;
+}
+
+#computerPick > img {
+    width: 56px;
+    height: 56px;
+    padding: 15px;
+}
+
+.versus {
+    position: relative;
+    top : 60px;
+}
+
+/* Game Over */
+
+.gameover {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.gameoverText {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+/* Retry Button*/
+
+.retryButton {
+    cursor: pointer;
+    background-color: lightsalmon;
+    border: solid 1px;
+    padding: 10px 30px;
+}
+
+.retryButton:hover {
+    background-color: rgba(255, 160, 122, 0.534);
+}
+
+/* Misc */
+
+.hidden {
+    display: none;
+}
+
+.normal {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
